@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--Karla Vivas GR2-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Contacta.me</title>
+</head>
+<body>
+    <h1>Formulario HTML Contacta.me</h1>
+    <form action="">
+        Nombre: <br>
+        <input type="text" name="nombre" required> <br>
+        Apellido: <br>
+        <input type="text" name="apellido" required> <br>
+        Correo electrónico: <br>
+        <input type="email" name="email" required> <br>
+        Teléfono: (Ejemplo: 0987654321)<br>
+        <input type="text" name="numero" pattern="^0[9][9|8|7|6]\d{7}"> <br>
+        Clave: <br>
+        <input type="password" name="clave" minlength="8" required> <br>
+        Cargo: <br>
+        <select name="cargo" id="cargo">
+            <option value="director">Director</option>
+            <option value="operador">Operador</option>
+            <option value="supervisor">Supervisor</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" name="Enviar">
+    </form>
+</body>
+</html>
